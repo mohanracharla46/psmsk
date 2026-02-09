@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Palnadu Sri Maha Saiva Kshetram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Ramabhadra&family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +91 12345 67890</span>
+                    <span><i class="fas fa-envelope"></i> info@temple.org</span>
+                </div>
+                <div class="lang-switch">
+                    <button id="lang-btn" onclick="toggleLanguage()">తెలుగు | English</button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container nav-container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo" id="temple-logo"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-key="nav_home">Home</a></li>
+                    <li><a href="gallery.html" data-key="nav_gallery">Gallery</a></li>
+                    <li><a href="donations.html" data-key="nav_donations">Donations</a></li>
+                    <li><a href="contact.html" data-key="nav_contact" class="active">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <h2 class="section-title" data-key="section_contact">Contact Us</h2>
+                <div class="contact-flex"
+                    style="background: white; padding: 40px; border-radius: 20px; box-shadow: var(--shadow);">
+                    <div class="contact-info-block reveal-left">
+                        <div style="margin-bottom: 30px;">
+                            <h3 data-key="contact_address_title" style="color: var(--maroon); margin-bottom: 10px;"><i
+                                    class="fas fa-map-marker-alt" style="color: var(--gold);"></i> Address</h3>
+                            <p data-key="contact_address">Nayakurala Nagamma Temple Premises, Gamalapadu, Dachepalli
+                                Mandal, Palnadu District.</p>
+                        </div>
+                        <div style="margin-bottom: 30px;">
+                            <h3 data-key="contact_phone_title" style="color: var(--maroon); margin-bottom: 10px;"><i
+                                    class="fas fa-phone" style="color: var(--gold);"></i> Phone</h3>
+                            <p>+91 98765 43210</p>
+                        </div>
+                        <div style="margin-bottom: 30px;">
+                            <h3 data-key="contact_email_title" style="color: var(--maroon); margin-bottom: 10px;"><i
+                                    class="fas fa-envelope" style="color: var(--gold);"></i> Email</h3>
+                            <p>info@palnadusaivakshetram.org</p>
+                        </div>
+                    </div>
+                    <div class="contact-form reveal-right">
+                        <form style="display: grid; gap: 20px;">
+                            <input type="text" placeholder="Your Name" required
+                                style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; font-family: inherit;">
+                            <input type="email" placeholder="Your Email" required
+                                style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; font-family: inherit;">
+                            <textarea placeholder="Your Message" rows="5" required
+                                style="padding: 15px; border: 1px solid #ddd; border-radius: 8px; font-family: inherit;"></textarea>
+                            <button type="submit" class="btn btn-primary" data-key="btn_send">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-logo">
+                    <img src="images/logo.png" alt="Logo">
+                    <p data-key="temple_name">Palnadu Sri Maha Saiva Kshetram</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-key="nav_about">Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-key="nav_home">Home</a></li>
+                        <li><a href="gallery.html" data-key="nav_gallery">Gallery</a></li>
+                        <li><a href="donations.html" data-key="nav_donations">Donations</a></li>
+                        <li><a href="contact.html" data-key="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-key="section_contact">Contact</h4>
+                    <ul class="footer-links">
+                        <li data-key="contact_address">Nayakurala Nagamma Temple Premises, Gamalapadu, Dachepalli
+                            Mandal, Palnadu District.</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Email: info@palnadusaivakshetram.org</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 <span data-key="temple_name">Palnadu Sri Maha Saiva Kshetram</span>. All Rights Reserved.
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

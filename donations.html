@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donations - Palnadu Sri Maha Saiva Kshetram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Ramabhadra&family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +91 12345 67890</span>
+                    <span><i class="fas fa-envelope"></i> info@temple.org</span>
+                </div>
+                <div class="lang-switch">
+                    <button id="lang-btn" onclick="toggleLanguage()">తెలుగు | English</button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container nav-container">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png" alt="Logo" id="temple-logo"></a>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" data-key="nav_home">Home</a></li>
+                    <li><a href="gallery.html" data-key="nav_gallery">Gallery</a></li>
+                    <li><a href="donations.html" data-key="nav_donations" class="active">Donations</a></li>
+                    <li><a href="contact.html" data-key="nav_contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <div class="donation-card reveal-scale">
+                    <h2 data-key="section_donations">Donations</h2>
+                    <p data-key="donations_text">Your contributions help us maintain the temple and continue our
+                        spiritual activities. May the Lord bless you.</p>
+                    <div class="qr-show-container" style="text-align: center; margin-top: 30px;">
+                        <h3 style="color: var(--gold); margin-bottom: 20px;">Support the Temple Development</h3>
+                        <div
+                            style="background: white; padding: 20px; border-radius: 15px; display: inline-block; box-shadow: 0 10px 30px rgba(0,0,0,0.3);">
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=DonationPlaceholder"
+                                alt="Scan to Donate"
+                                style="width: 250px; height: 250px; display: block; border-radius: 10px;">
+                            <p
+                                style="color: var(--maroon); font-weight: bold; margin-top: 15px; text-transform: uppercase;">
+                                Scan with any UPI App</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-logo">
+                    <img src="images/logo.png" alt="Logo">
+                    <p data-key="temple_name">Palnadu Sri Maha Saiva Kshetram</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-key="nav_about">Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html" data-key="nav_home">Home</a></li>
+                        <li><a href="gallery.html" data-key="nav_gallery">Gallery</a></li>
+                        <li><a href="donations.html" data-key="nav_donations">Donations</a></li>
+                        <li><a href="contact.html" data-key="nav_contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-key="section_contact">Contact</h4>
+                    <ul class="footer-links">
+                        <li data-key="contact_address">Nayakurala Nagamma Temple Premises, Gamalapadu, Dachepalli
+                            Mandal, Palnadu District.</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Email: info@palnadusaivakshetram.org</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 <span data-key="temple_name">Palnadu Sri Maha Saiva Kshetram</span>. All Rights Reserved.
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
