@@ -425,6 +425,18 @@ tr:hover {
     gap: 30px;
 }
 
+.committee-grid {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .committee-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 .card {
     background: var(--white);
     padding: 40px;

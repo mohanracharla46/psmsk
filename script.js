@@ -61,7 +61,20 @@ const translations = {
         contact_phone_title: "Phone",
         contact_email_title: "Email",
         btn_send: "Send Message",
-        lang_toggle: "తెలుగు | English"
+        lang_toggle: "తెలుగు | English",
+        section_palnadu: "About Palnadu",
+        palnadu_text1: "Palnadu district is renowned for its rich history, culture, valor, and spirituality. The heroic tales of Palnadu warriors hold a special place in Telugu heritage. The region is known for ancient temples, sacred rivers, and holy places.",
+        palnadu_text2: "Palnadu is considered a sacred land where devotion, righteousness, and tradition coexist. The people of this region preserve customs and cultural values passed down through generations.",
+        section_donors: "Donors / Permanent Members",
+        donors_text1: "The Temple Committee expresses heartfelt gratitude to all donors and permanent members who are supporting the development of the Maha Saiva Kshetram.",
+        donors_text2: "With their contributions, initiatives such as temple renovation, Goshala, Veda Pathashala, Old Age Orphanage, and the Museum are progressing.",
+        donors_placeholder: "Names of donors, their villages, and contribution details will be displayed here.",
+        section_committee: "Temple Committee",
+        committee_text1: "The Temple Committee is responsible for the construction, development, and management of the Maha Saiva Kshetram. Ensuring devotee convenience, temple maintenance, organizing rituals, and supervising service activities are the main objectives of the committee.",
+        committee_text2: "Committee members are dedicatedly serving for the continuous development of the temple.",
+        section_chairman: "Temple Chairman Information",
+        chairman_text1: "The Temple Chairman plays a key leadership role in guiding the development activities of the temple. Under the Chairman’s leadership, the committee works in coordination for devotee welfare, temple expansion, and service initiatives.",
+        chairman_text2: "The Chairman’s message and contact details will be provided here."
     },
     te: {
         temple_name: "పల్నాడు శ్రీ మహాశైవ క్షేత్రము",
@@ -125,7 +138,20 @@ const translations = {
         contact_phone_title: "ఫోన్",
         contact_email_title: "ఈమెయిల్",
         btn_send: "సందేశం పంపండి",
-        lang_toggle: "English | తెలుగు"
+        lang_toggle: "English | తెలుగు",
+        section_palnadu: "పల్నాడు గురించి",
+        palnadu_text1: "పల్నాడు జిల్లా చరిత్ర, సంస్కృతి, వీరత్వం, ఆధ్యాత్మికతకు ప్రసిద్ధి చెందిన ప్రాంతం. పల్నాడు వీరుల గాధలు తెలుగు ప్రజల గుండెల్లో చిరస్థాయిగా నిలిచాయి. ఈ ప్రాంతం ప్రాచీన ఆలయాలు, నదులు, పుణ్యక్షేత్రాలతో ప్రసిద్ధి చెందింది.",
+        palnadu_text2: "పల్నాడు ప్రాంతం భక్తి, ధర్మం, సంస్కృతి కలగలిసిన పవిత్ర భూమిగా భావించబడుతుంది. ఇక్కడి ప్రజలు ఆచార సంప్రదాయాలను గౌరవిస్తూ తరతరాలుగా వాటిని కొనసాగిస్తున్నారు.",
+        section_donors: "దాతల వివరాలు / శాశ్వత సభ్యులు",
+        donors_text1: "మహాశైవ క్షేత్ర అభివృద్ధికి తమ వంతు సహకారం అందిస్తున్న దాతలు, శాశ్వత సభ్యులకు ఆలయ కమిటీ హృదయపూర్వక కృతజ్ఞతలు తెలియజేస్తోంది.",
+        donors_text2: "వారి సహకారంతో ఆలయ పునరుద్ధరణ, గోశాల, వేద పాఠశాల, వృద్ధ అనాధాశ్రమం, మ్యూజియం వంటి సేవా కార్యక్రమాలు ముందుకు సాగుతున్నాయి.",
+        donors_placeholder: "దాతల పేర్లు, ఊరు, విరాళ వివరాలను ఇక్కడ ప్రదర్శించబడతాయి.",
+        section_committee: "ఆలయ కమిటీ",
+        committee_text1: "మహాశైవ క్షేత్ర నిర్మాణం, అభివృద్ధి, నిర్వహణ బాధ్యతలను ఆలయ కమిటీ నిర్వహిస్తోంది. భక్తుల సౌకర్యం, ఆలయ పరిరక్షణ, పూజా కార్యక్రమాల నిర్వహణ మరియు సేవా కార్యక్రమాల పర్యవేక్షణ కమిటీ ప్రధాన లక్ష్యాలు.",
+        committee_text2: "ఆలయ అభివృద్ధి కోసం కమిటీ సభ్యులు నిబద్ధతతో సేవలందిస్తున్నారు.",
+        section_chairman: "ఆలయ చైర్మన్ సమాచారం",
+        chairman_text1: "ఆలయ అభివృద్ధి కార్యక్రమాలకు మార్గదర్శిగా ఆలయ చైర్మన్ ముఖ్య పాత్ర పోషిస్తున్నారు. భక్తుల సంక్షేమం, ఆలయ విస్తరణ, సేవా కార్యక్రమాల నిర్వహణలో చైర్మన్ గారి నాయకత్వంలో కమిటీ సమన్వయంతో ముందుకు సాగుతోంది.",
+        chairman_text2: "చైర్మన్ గారి సంప్రదింపు వివరాలు మరియు సందేశం ఇక్కడ పొందుపరచబడతాయి."
     }
 };
 

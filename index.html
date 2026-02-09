@@ -41,9 +41,9 @@
                     <li><a href="#darshan" data-key="nav_darshan">Darshan</a></li>
                     <li><a href="#sevas" data-key="nav_sevas">Sevas</a></li>
                     <li><a href="#festivals" data-key="nav_festivals">Festivals</a></li>
-                    <li><a href="#gallery" data-key="nav_gallery">Gallery</a></li>
-                    <li><a href="#donations" data-key="nav_donations">Donations</a></li>
-                    <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+                    <li><a href="gallery.html" data-key="nav_gallery">Gallery</a></li>
+                    <li><a href="donations.html" data-key="nav_donations">Donations</a></li>
+                    <li><a href="contact.html" data-key="nav_contact">Contact</a></li>
                 </ul>
                 <div class="menu-toggle" id="mobile-menu">
                     <i class="fas fa-bars"></i>
@@ -118,6 +118,17 @@
                     <div class="history-text reveal-left">
                         <p data-key="history_text">11th century content...</p>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Palnadu -->
+        <section id="palnadu" class="section reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_palnadu">About Palnadu</h2>
+                <div class="card reveal-scale" style="background: var(--white); border-left: 5px solid var(--gold);">
+                    <p data-key="palnadu_text1" style="margin-bottom: 20px; font-size: 1.1rem; line-height: 1.8;"></p>
+                    <p data-key="palnadu_text2" style="font-size: 1.1rem; line-height: 1.8;"></p>
                 </div>
             </div>
         </section>
@@ -220,84 +231,40 @@
             </div>
         </section>
 
-        <!-- Gallery -->
-        <section id="gallery" class="section bg-light reveal">
+        <!-- Temple Committee & Chairman -->
+        <section id="committee" class="section bg-light reveal">
             <div class="container">
-                <h2 class="section-title" data-key="section_gallery">Gallery</h2>
-                <div class="gallery-carousel-wrapper">
-                    <button class="carousel-btn prev" id="gallery-prev"><i class="fas fa-chevron-left"></i></button>
-                    <div class="gallery-carousel">
-                        <div class="gallery-track">
-                            <div class="gallery-item reveal-scale"><img src="images/shiva.png" alt="Lord Shiva Art">
-                            </div>
-                            <div class="gallery-item reveal-scale"><img src="images/shivalingam1.png"
-                                    alt="Emerald Lingam"></div>
-                            <div class="gallery-item reveal-scale"><img src="images/shivalingam2.png"
-                                    alt="Shiva Lingam Detail">
-                            </div>
-                            <div class="gallery-item reveal-scale"><img src="images/shivalingam3.png"
-                                    alt="Shiva Lingam Detail">
-                            </div>
-                            <div class="gallery-item reveal-scale"><img src="images/temple.png"
-                                    alt="Temple Architecture"></div>
-                            <div class="gallery-item reveal-scale"><img src="images/nagamma.png"
-                                    alt="Nayakurala Nagamma"></div>
-                        </div>
+                <h2 class="section-title" data-key="section_committee">Temple Committee</h2>
+                <div class="committee-grid">
+                    <div class="card reveal-left">
+                        <p data-key="committee_text1" style="margin-bottom: 15px;"></p>
+                        <p data-key="committee_text2"></p>
                     </div>
-                    <button class="carousel-btn next" id="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                    <div class="card reveal-right" style="border-top: 5px solid var(--maroon);">
+                        <h3
+                            style="color: var(--maroon); margin-bottom: 15px; display: flex; align-items: center; gap: 10px;">
+                            <i class="fas fa-user-tie" style="color: var(--gold);"></i> <span
+                                data-key="section_chairman">Temple Chairman</span>
+                        </h3>
+                        <p data-key="chairman_text1" style="margin-bottom: 15px;"></p>
+                        <p data-key="chairman_text2" style="font-style: italic; color: #666;"></p>
+                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- Donations -->
-        <section id="donations" class="section reveal">
+        <!-- Donors Section -->
+        <section id="donors" class="section reveal">
             <div class="container">
-                <div class="donation-card">
-                    <h2 data-key="section_donations">Donations</h2>
-                    <p data-key="donations_text">Your contributions help us maintain the temple and continue our
-                        spiritual activities. May the Lord bless you.</p>
-                    <button class="btn btn-gold" id="show-qr-btn">
-                        <i class="fas fa-qrcode"></i> <span data-key="btn_donate">Donate Now</span>
-                    </button>
-                </div>
-            </div>
-        </section>
-
-        <!-- QR Modal -->
-        <div id="qr-modal" class="modal">
-            <div class="modal-content">
-                <span class="close-modal"><i class="fas fa-times"></i></span>
-                <div class="qr-popup-container">
-                    <h3 style="color: var(--maroon); margin-bottom: 20px;">Support the Temple</h3>
-                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=DonationPlaceholder"
-                        alt="Scan to Donate" class="modal-qr">
-                    <p class="qr-label" style="margin-top: 15px;">Scan with GPay, PhonePe, or Paytm</p>
-                    <p style="font-size: 0.85rem; color: #666; margin-top: 10px;">Your generosity helps preserve our
-                        sacred heritage.</p>
-                </div>
-            </div>
-        </div>
-
-        <!-- Contact Section -->
-        <section id="contact" class="section bg-light reveal">
-            <div class="container">
-                <h2 class="section-title" data-key="section_contact">Contact Us</h2>
-                <div class="contact-flex">
-                    <div class="contact-info-block">
-                        <h3 data-key="contact_address_title">Address</h3>
-                        <p data-key="contact_address">Main Temple Road, Spiritual City, Andhra Pradesh - 515001</p>
-                        <h3 data-key="contact_phone_title">Phone</h3>
-                        <p>+91 12345 67890</p>
-                        <h3 data-key="contact_email_title">Email</h3>
-                        <p>info@temple.org</p>
-                    </div>
-                    <div class="contact-form">
-                        <form>
-                            <input type="text" placeholder="Name" required>
-                            <input type="email" placeholder="Email" required>
-                            <textarea placeholder="Message" rows="5" required></textarea>
-                            <button type="submit" class="btn btn-primary" data-key="btn_send">Send Message</button>
-                        </form>
+                <h2 class="section-title" data-key="section_donors">Donors / Permanent Members</h2>
+                <div class="card reveal-scale"
+                    style="text-align: center; border: 2px dashed var(--gold); background: rgba(212, 175, 55, 0.05);">
+                    <p data-key="donors_text1" style="margin-bottom: 15px; font-weight: bold;"></p>
+                    <p data-key="donors_text2" style="margin-bottom: 30px;"></p>
+                    <div class="donors-list-placeholder"
+                        style="padding: 30px; background: var(--white); border-radius: 10px; color: var(--maroon); font-style: italic;">
+                        <i class="fas fa-scroll" style="font-size: 2rem; margin-bottom: 15px; display: block;"></i>
+                        <span data-key="donors_placeholder"></span>
                     </div>
                 </div>
             </div>
