@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palnadu Sri Maha Saiva Kshetram</title>
+    <meta name="description"
+        content="Official website of Palnadu Sri Maha Saiva Kshetram. Find darshan timings, sevas, and festival information.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Ramabhadra&family=Lora:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +91 12345 67890</span>
+                    <span><i class="fas fa-envelope"></i> info@temple.org</span>
+                </div>
+                <div class="lang-switch">
+                    <button id="lang-btn" onclick="toggleLanguage()">తెలుగు | English</button>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container nav-container">
+                <div class="logo">
+                    <img src="images/logo.png" alt="Palnadu Sri Maha Saiva Kshetram Logo" id="temple-logo">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home" data-key="nav_home">Home</a></li>
+                    <li><a href="#about" data-key="nav_about">About</a></li>
+                    <li><a href="#history" data-key="nav_history">History</a></li>
+                    <li><a href="#darshan" data-key="nav_darshan">Darshan</a></li>
+                    <li><a href="#sevas" data-key="nav_sevas">Sevas</a></li>
+                    <li><a href="#festivals" data-key="nav_festivals">Festivals</a></li>
+                    <li><a href="#gallery" data-key="nav_gallery">Gallery</a></li>
+                    <li><a href="#donations" data-key="nav_donations">Donations</a></li>
+                    <li><a href="#contact" data-key="nav_contact">Contact</a></li>
+                </ul>
+                <div class="menu-toggle" id="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-slider">
+                <div class="slide active"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/shiva.png');">
+                </div>
+                <div class="slide"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/temple.png');">
+                </div>
+                <div class="slide"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/shivalingam2.png');">
+                </div>
+                <div class="slide"
+                    style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/shivalingam3.png');">
+                </div>
+            </div>
+            <div class="hero-content">
+                <h2 data-key="hero_welcome">Palnadu Sri Maha Saiva Kshetram</h2>
+                <p data-key="hero_subtitle">Experience Peace, Spirituality, and Tradition</p>
+                <a href="#darshan" class="btn btn-primary" data-key="btn_view_timings">View Darshan Timings</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_about">About Temple</h2>
+                <div class="about-container">
+                    <h3 data-key="about_title" class="sub-title"
+                        style="text-align: center; margin-bottom: 30px; color: var(--maroon);">Development of Palnadu
+                        Sri Maha Saiva Kshetram</h3>
+                    <div class="about-flex">
+                        <div class="about-image">
+                            <img src="images/shivalingam1.png" alt="Shiva Lingam" id="shivalingam-img">
+                        </div>
+                        <div class="about-text-content">
+                            <p data-key="about_p1" style="margin-bottom: 15px;"></p>
+                            <p data-key="about_p2" style="margin-bottom: 15px;"></p>
+                        </div>
+                    </div>
+                    <p data-key="about_p3" style="font-weight: bold; margin-bottom: 15px; margin-top: 25px;"></p>
+                    <ul class="projects-list" style="margin-bottom: 25px; padding-left: 20px;">
+                        <li data-key="project_1" style="margin-bottom: 10px;"></li>
+                        <li data-key="project_2" style="margin-bottom: 10px;"></li>
+                        <li data-key="project_3" style="margin-bottom: 10px;"></li>
+                        <li data-key="project_4" style="margin-bottom: 10px;"></li>
+                        <li data-key="project_5" style="margin-bottom: 10px;"></li>
+                    </ul>
+                    <p data-key="development_text"></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- History Section -->
+        <section id="history" class="section bg-light reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_history">Temple History</h2>
+                <div class="history-flex">
+                    <div class="history-image">
+                        <img src="images/nagamma.png" alt="Nayakurala Nagamma" id="nagamma-img">
+                    </div>
+                    <div class="history-text">
+                        <p data-key="history_text">11th century content...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Darshan Timings -->
+        <section id="darshan" class="section reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_darshan">Darshan Timings</h2>
+                <div class="table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th data-key="table_event">Event / Darshan</th>
+                                <th data-key="table_time">Timings</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td data-key="darshan_suprabhatam">Suprabhatam</td>
+                                <td>05:00 AM - 05:30 AM</td>
+                            </tr>
+                            <tr>
+                                <td data-key="darshan_sarva">Sarva Darshanam</td>
+                                <td>06:00 AM - 12:30 PM</td>
+                            </tr>
+                            <tr>
+                                <td data-key="darshan_break">Break</td>
+                                <td>12:30 PM - 03:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td data-key="darshan_evening">Evening Darshanam</td>
+                                <td>03:00 PM - 08:30 PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seva / Puja -->
+        <section id="sevas" class="section bg-light reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_sevas">Seva & Puja</h2>
+                <div class="card-grid">
+                    <div class="card">
+                        <h3 data-key="seva_archana">Archana</h3>
+                        <p data-key="seva_archana_desc">Personalized prayer to the deity.</p>
+                        <span class="price">₹50</span>
+                    </div>
+                    <div class="card">
+                        <h3 data-key="seva_abhishekam">Abhishekam</h3>
+                        <p data-key="seva_abhishekam_desc">Sacred bathing of the deity with milk and honey.</p>
+                        <span class="price">₹500</span>
+                    </div>
+                    <div class="card">
+                        <h3 data-key="seva_kalyanam">Kalyanotsavam</h3>
+                        <p data-key="seva_kalyanam_desc">Divine wedding ceremony of the Lord.</p>
+                        <span class="price">₹2000</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Festivals & Events -->
+        <section id="festivals" class="section reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_festivals">Festivals & Events</h2>
+                <div class="event-list">
+                    <div class="event-item">
+                        <div class="event-details">
+                            <h3 data-key="event_shivaratri">Maha Shivaratri</h3>
+                            <p data-key="event_shivaratri_desc"></p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-details">
+                            <h3 data-key="event_pradosham">Pradosha Vratham</h3>
+                            <p data-key="event_pradosham_desc"></p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-details">
+                            <h3 data-key="event_karthika">Karthika Masam</h3>
+                            <p data-key="event_karthika_desc"></p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-details">
+                            <h3 data-key="event_shravan">Shravan Masam</h3>
+                            <p data-key="event_shravan_desc"></p>
+                        </div>
+                    </div>
+                    <div class="event-item">
+                        <div class="event-details">
+                            <h3 data-key="event_masa_shivaratri">Masa Shivaratri</h3>
+                            <p data-key="event_masa_shivaratri_desc"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery -->
+        <section id="gallery" class="section bg-light reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_gallery">Gallery</h2>
+                <div class="gallery-carousel-wrapper">
+                    <button class="carousel-btn prev" id="gallery-prev"><i class="fas fa-chevron-left"></i></button>
+                    <div class="gallery-carousel">
+                        <div class="gallery-track">
+                            <div class="gallery-item"><img src="images/shiva.png" alt="Lord Shiva Art"></div>
+                            <div class="gallery-item"><img src="images/shivalingam1.png" alt="Emerald Lingam"></div>
+                            <div class="gallery-item"><img src="images/shivalingam2.png" alt="Shiva Lingam Detail">
+                            </div>
+                            <div class="gallery-item"><img src="images/shivalingam3.png" alt="Shiva Lingam Detail">
+                            </div>
+                            <div class="gallery-item"><img src="images/temple.png" alt="Temple Architecture"></div>
+                            <div class="gallery-item"><img src="images/nagamma.png" alt="Nayakurala Nagamma"></div>
+                        </div>
+                    </div>
+                    <button class="carousel-btn next" id="gallery-next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Donations -->
+        <section id="donations" class="section reveal">
+            <div class="container">
+                <div class="donation-card">
+                    <h2 data-key="section_donations">Donations</h2>
+                    <p data-key="donations_text">Your contributions help us maintain the temple and continue our
+                        spiritual activities. May the Lord bless you.</p>
+                    <button class="btn btn-gold" id="show-qr-btn">
+                        <i class="fas fa-qrcode"></i> <span data-key="btn_donate">Donate Now</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- QR Modal -->
+        <div id="qr-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal"><i class="fas fa-times"></i></span>
+                <div class="qr-popup-container">
+                    <h3 style="color: var(--maroon); margin-bottom: 20px;">Support the Temple</h3>
+                    <img src="https://api.qrserver.com/v1/create-qr-code/?size=250x250&data=DonationPlaceholder"
+                        alt="Scan to Donate" class="modal-qr">
+                    <p class="qr-label" style="margin-top: 15px;">Scan with GPay, PhonePe, or Paytm</p>
+                    <p style="font-size: 0.85rem; color: #666; margin-top: 10px;">Your generosity helps preserve our
+                        sacred heritage.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section bg-light reveal">
+            <div class="container">
+                <h2 class="section-title" data-key="section_contact">Contact Us</h2>
+                <div class="contact-flex">
+                    <div class="contact-info-block">
+                        <h3 data-key="contact_address_title">Address</h3>
+                        <p data-key="contact_address">Main Temple Road, Spiritual City, Andhra Pradesh - 515001</p>
+                        <h3 data-key="contact_phone_title">Phone</h3>
+                        <p>+91 12345 67890</p>
+                        <h3 data-key="contact_email_title">Email</h3>
+                        <p>info@temple.org</p>
+                    </div>
+                    <div class="contact-form">
+                        <form>
+                            <input type="text" placeholder="Name" required>
+                            <input type="email" placeholder="Email" required>
+                            <textarea placeholder="Message" rows="5" required></textarea>
+                            <button type="submit" class="btn btn-primary" data-key="btn_send">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section footer-logo">
+                    <img src="images/logo.png" alt="Logo">
+                    <p data-key="temple_name">Palnadu Sri Maha Saiva Kshetram</p>
+                </div>
+                <div class="footer-section">
+                    <h4 data-key="nav_about">About</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home" data-key="nav_home">Home</a></li>
+                        <li><a href="#about" data-key="nav_about">About</a></li>
+                        <li><a href="#history" data-key="nav_history">History</a></li>
+                        <li><a href="#donations" data-key="nav_donations">Donations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4 data-key="section_contact">Contact</h4>
+                    <ul class="footer-links">
+                        <li data-key="contact_address">Nayakurala Nagamma Temple Premises, Gamalapadu, Dachepalli
+                            Mandal, Palnadu District.</li>
+                        <li>Phone: +91 98765 43210</li>
+                        <li>Email: info@palnadusaivakshetram.org</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 <span data-key="temple_name">Palnadu Sri Maha Saiva Kshetram</span>. All Rights Reserved.
+                </p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
