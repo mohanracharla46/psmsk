@@ -281,7 +281,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Scroll Reveal Logic
-    const revealElements = document.querySelectorAll('.reveal');
+    const revealElements = document.querySelectorAll('.reveal, .reveal-left, .reveal-right, .reveal-scale');
     const revealObserver = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
