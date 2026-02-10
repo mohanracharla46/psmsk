@@ -719,6 +719,10 @@ tr:hover {
     display: flex;
     gap: 50px;
     flex-wrap: wrap;
+    background: var(--white);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
 }
 
 .contact-info-block,
@@ -739,6 +743,8 @@ tr:hover {
     border: 1px solid #ddd;
     border-radius: 5px;
     font-family: inherit;
+    width: 100%;
+    /* Ensure full width */
 }
 
 /* About Section Premium Styles */
@@ -1104,7 +1110,8 @@ footer {
 
     .about-container,
     .history-flex,
-    .donation-card {
+    .donation-card,
+    .contact-flex {
         padding: 25px;
     }
 
@@ -1194,5 +1201,39 @@ footer {
     .top-bar .contact-info span {
         display: block;
         margin-bottom: 5px;
+    }
+}
+
+/* responsive donation section */
+@media (max-width: 768px) {
+    .donation-actions-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .qr-section,
+    .bank-details-section {
+        min-width: 100% !important;
+        flex: 1 1 100%;
+    }
+
+    .qr-section>div,
+    .bank-details-section>div {
+        width: 100% !important;
+        padding: 20px !important;
+    }
+
+    .qr-section img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 300px;
+        /* Limit QR size on mobile */
+    }
+
+    .bank-info-grid .detail-row p:last-child {
+        font-size: 1.1rem !important;
+        /* Slightly smaller text for account numbers */
+        word-break: break-all;
+        /* Ensure long numbers wrap */
     }
 }
