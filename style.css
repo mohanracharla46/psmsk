@@ -1237,3 +1237,103 @@ footer {
         /* Ensure long numbers wrap */
     }
 }
+
+/* Social Media Section */
+.social-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.social-card {
+    background: var(--white);
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--text-dark);
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.social-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, var(--gold), var(--saffron));
+    transition: var(--transition);
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.social-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.social-card:hover::before {
+    transform: scaleX(1);
+}
+
+.social-card .icon-wrapper {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--off-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    transition: var(--transition);
+    color: var(--maroon);
+}
+
+.social-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    transition: var(--transition);
+}
+
+.social-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Platform specific colors on hover */
+.social-card.twitter:hover .icon-wrapper {
+    background: #000;
+    color: white;
+}
+
+.social-card.twitter:hover h3 {
+    color: #000;
+}
+
+.social-card.youtube:hover .icon-wrapper {
+    background: #FF0000;
+    color: white;
+}
+
+.social-card.youtube:hover h3 {
+    color: #FF0000;
+}
+
+.social-card.facebook:hover .icon-wrapper {
+    background: #1877F2;
+    color: white;
+}
+
+.social-card.facebook:hover h3 {
+    color: #1877F2;
+}
