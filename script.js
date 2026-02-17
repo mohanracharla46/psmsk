@@ -7,6 +7,7 @@ const translations = {
         nav_darshan: "Darshan",
         nav_sevas: "Sevas",
         nav_festivals: "Festivals",
+        nav_videos: "Videos",
         nav_gallery: "Gallery",
         nav_donations: "Donations",
         nav_contact: "Contact",
@@ -51,6 +52,12 @@ const translations = {
         event_shravan_desc: "Auspicious month dedicated to Lord Shiva.",
         event_masa_shivaratri: "Masa Shivaratri",
         event_masa_shivaratri_desc: "Monthly observance of Shivaratri.",
+        section_videos: "Spiritual Videos",
+        video_title1: "Palnadu Sri Maha Saiva Kshetram",
+        video_desc1: "A spiritual journey through our sacred shrine.",
+        video_title2: "Temple Restoration",
+        video_desc2: "Watch the significant restoration efforts and sacred rituals.",
+        btn_watch_more: "Watch More on YouTube",
         section_gallery: "Gallery",
         section_donations: "Donations",
         donations_text: "Your contributions help us maintain the temple and continue our spiritual activities.",
@@ -80,9 +87,11 @@ const translations = {
         section_committee: "Temple Committee",
         committee_text1: "The Temple Committee is responsible for the construction, development, and management of the Maha Saiva Kshetram. Ensuring devotee convenience, temple maintenance, organizing rituals, and supervising service activities are the main objectives of the committee.",
         committee_text2: "Committee members are dedicatedly serving for the continuous development of the temple.",
-        section_chairman: "Temple Chairman Information",
-        chairman_text1: "The Temple Chairman plays a key leadership role in guiding the development activities of the temple. Under the Chairman’s leadership, the committee works in coordination for devotee welfare, temple expansion, and service initiatives.",
-        chairman_text2: "The Chairman’s message and contact details will be provided here."
+        section_chairman: "Temple Chairman",
+        chairman_name: "Sri Janga Krishna Murthy",
+        chairman_role: "Founder & Chairman",
+        chairman_committee: "Sri Maha Saiva Kshetra Nirmana Committee",
+        chairman_text1: "Sri Janga Krishna Murthy garu serves as the Founder and Chairman of the Sri Maha Saiva Kshetra Nirmana Committee. Under his visionary leadership, the temple is being developed into a magnificent spiritual center."
     },
     te: {
         temple_name: "పల్నాడు శ్రీ మహాశైవ క్షేత్రము",
@@ -92,6 +101,7 @@ const translations = {
         nav_darshan: "దర్శనం",
         nav_sevas: "సేవలు",
         nav_festivals: "పండుగలు",
+        nav_videos: "వీడియోలు",
         nav_gallery: "చిత్రమాలిక",
         nav_donations: "విరాళాలు",
         nav_contact: "సంప్రదించండి",
@@ -136,6 +146,12 @@ const translations = {
         event_shravan_desc: "శివారాధనకు అత్యంత ప్రశస్తమైన మాసం.",
         event_masa_shivaratri: "మాస శివరాత్రి",
         event_masa_shivaratri_desc: "ప్రతి నెలా నిర్వహించబడే శివరాత్రి వేడుకలు.",
+        section_videos: "ఆధ్యాత్మిక వీడియోలు",
+        video_title1: "పల్నాడు శ్రీ మహాశైవ క్షేత్రం",
+        video_desc1: "మా పుణ్యక్షేత్రం యొక్క ఆధ్యాత్మిక మరియు సాంస్కృతిక విశిష్టత.",
+        video_title2: "ఆలయ పునరుద్ధరణ",
+        video_desc2: "క్షేత్ర పునరుద్ధరణ పనులు మరియు పవిత్ర పూజా కైంకర్యాలు.",
+        btn_watch_more: "యూట్యూబ్‌లో మరిన్ని చూడండి",
         section_gallery: "చిత్రమాలిక",
         section_donations: "విరాళాలు",
         donations_text: "దేవాలయ అభివృద్ధిలో మీ వంతు భాగస్వామ్యం అందించండి.",
@@ -165,9 +181,11 @@ const translations = {
         section_committee: "ఆలయ కమిటీ",
         committee_text1: "మహాశైవ క్షేత్ర నిర్మాణం, అభివృద్ధి, నిర్వహణ బాధ్యతలను ఆలయ కమిటీ నిర్వహిస్తోంది. భక్తుల సౌకర్యం, ఆలయ పరిరక్షణ, పూజా కార్యక్రమాల నిర్వహణ మరియు సేవా కార్యక్రమాల పర్యవేక్షణ కమిటీ ప్రధాన లక్ష్యాలు.",
         committee_text2: "ఆలయ అభివృద్ధి కోసం కమిటీ సభ్యులు నిబద్ధతతో సేవలందిస్తున్నారు.",
-        section_chairman: "ఆలయ చైర్మన్ సమాచారం",
-        chairman_text1: "ఆలయ అభివృద్ధి కార్యక్రమాలకు మార్గదర్శిగా ఆలయ చైర్మన్ ముఖ్య పాత్ర పోషిస్తున్నారు. భక్తుల సంక్షేమం, ఆలయ విస్తరణ, సేవా కార్యక్రమాల నిర్వహణలో చైర్మన్ గారి నాయకత్వంలో కమిటీ సమన్వయంతో ముందుకు సాగుతోంది.",
-        chairman_text2: "చైర్మన్ గారి సంప్రదింపు వివరాలు మరియు సందేశం ఇక్కడ పొందుపరచబడతాయి."
+        section_chairman: "ఆలయ చైర్మన్",
+        chairman_name: "శ్రీ జంగా కృష్ణ మూర్తి గారు",
+        chairman_role: "ఫౌండర్ & చైర్మన్",
+        chairman_committee: "శ్రీ మహా శైవ క్షేత్ర నిర్మాణ కమిటి",
+        chairman_text1: "శ్రీ జంగా కృష్ణ మూర్తి గారు శ్రీ మహా శైవ క్షేత్ర నిర్మాణ కమిటీకి ఫౌండర్ & చైర్మన్‌గా వ్యవహరిస్తున్నారు. వీరి నిరంతర కృషి మరియు మార్గదర్శకత్వంలో ఈ క్షేత్రం ఆధ్యాత్మిక వెలుగులతో విరాజిల్లుతోంది."
     }
 };
 
